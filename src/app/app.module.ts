@@ -7,13 +7,15 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {NewPartComponent} from './new-part/new-part.component';
 import {EditPartComponent} from './edit-part/edit-part.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         DashboardComponent,
         NewPartComponent,
-        EditPartComponent
+        EditPartComponent,
+        NavbarComponent
     ],
     imports: [
         BrowserModule,
