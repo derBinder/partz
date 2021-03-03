@@ -47,7 +47,7 @@ describe('DashboardService', () => {
 
             const request = httpMock.expectOne(`${service.baseUrl}`);
             expect(request.request.method).toBe('GET');
-            request.flush();
+            request.flush(expected);
             expect(observableCalled).toBeFalsy();
         });
     });
