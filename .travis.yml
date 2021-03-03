@@ -2,6 +2,9 @@ language: node_js
 node_js:
     - 15
 
+install:
+    - npm install
+
 script:
-    - npm run lint
+    - npx ng lint
     - npm run test:travis
