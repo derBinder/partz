@@ -7,4 +7,5 @@ cache:
         - ./node_modules
 
 script:
-    - npm run test --watch=false --browsers=ChromeHeadless
+    - npm run lint
+    - npm run test:travis
