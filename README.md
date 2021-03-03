@@ -1,6 +1,7 @@
 # Partz
 
 [![Build Status](https://www.travis-ci.com/derBinder/partz.svg?branch=dev)](https://www.travis-ci.com/derBinder/partz)
+[![Coverage Status](https://coveralls.io/repos/github/derBinder/partz/badge.svg?branch=dev)](https://coveralls.io/github/derBinder/partz?branch=coveralls)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
