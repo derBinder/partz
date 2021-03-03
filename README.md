@@ -1,6 +1,6 @@
 # Partz
 
-[![Build Status](https://www.travis-ci.com/derBinder/partz.svg?branch=master)](https://www.travis-ci.com/derBinder/partz)
+[![Build Status](https://www.travis-ci.com/derBinder/partz.svg?branch=dev)](https://www.travis-ci.com/derBinder/partz)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
