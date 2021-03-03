@@ -7,7 +7,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {NewPartComponent} from './new-part/new-part.component';
 import {EditPartComponent} from './edit-part/edit-part.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import {NavbarComponent} from './navbar/navbar.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        NgbModule
+        NgbModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]

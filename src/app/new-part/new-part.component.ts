@@ -2,8 +2,7 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
     selector: 'app-new-part',
-    templateUrl: './new-part.component.html',
-    styleUrls: ['./new-part.component.scss']
+    templateUrl: './new-part.component.html'
 })
 export class NewPartComponent implements OnInit {
 
